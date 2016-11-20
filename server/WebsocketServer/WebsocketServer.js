@@ -26,7 +26,7 @@ class WebsocketServer extends BaseServer {
     handleMessage(str) {
         console.log("Received: " + str);
         setTimeout(() => {
-            this.conn.sendText('I TOTALLY HERE YOU BREH..');
+            this.conn.sendText('I TOTALLY HEAR YOU BREH..');
         }, 5000);
     }
 

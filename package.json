@@ -4,16 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "new-mod": "sh scripts/create_module.sh"
   },
   "author": "Kade S. Green",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
     "nodejs-websocket": "^1.7.1",
+    "randomstring": "^1.1.5",
     "winston": "^2.3.0"
-  },
-  "scripts": {
-    "new-mod": "sh scripts/create_module.sh"
   }
 }
