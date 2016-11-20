@@ -25,11 +25,6 @@ class IncommingMessage extends BaseMessage {
    get timeReceived() {
        return this.time_created;
    }
-
-   _parseMessage(message) {
-       if (!message.id) return null;
-       message.timeReceived = date.now();
-   }
 }
 
 module.exports = IncommingMessage;

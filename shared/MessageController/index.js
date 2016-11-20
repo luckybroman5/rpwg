@@ -1,2 +1,2 @@
 'use strict'; 
-module.exports = require('MessageController');
+module.exports = require('./MessageController');

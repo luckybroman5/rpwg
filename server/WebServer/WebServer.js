@@ -34,7 +34,8 @@ class WebServer extends BaseServer {
        // May not be the best idea when less memory on server
        this.pages = {
            main: fs.readFileSync('./client/public/index.html').toString(),
-           'websocket.js': fs.readFileSync('./client/public/websocket.js'),
+           'bundle.js': fs.readFileSync('./dist/client/bundle.js'),
+           'bundle.js.map': fs.readFileSync('./dist/client/bundle.js.map'),
        };
 
        server.listen(this.port, () => {

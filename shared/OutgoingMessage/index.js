@@ -1,2 +1,2 @@
 'use strict'; 
-module.exports = require('OutgoingMessage');
+module.exports = require('./OutgoingMessage');
