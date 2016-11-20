@@ -1,0 +1,19 @@
+{
+  "name": "raspberry-web-gui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kade S. Green",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "nodejs-websocket": "^1.7.1",
+    "winston": "^2.3.0"
+  },
+  "scripts": {
+    "new-mod": "sh scripts/create_module.sh"
+  }
+}
